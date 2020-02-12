@@ -1,0 +1,195 @@
+*******************************************************************************
+ Revised: July 31, 2013                  Sun                                 10
+
+ PHYSICAL PROPERTIES (updated 2018-Aug-15):
+  GM, km^3/s^2          = 132712440041.93938  Mass, 10^24 kg        = ~1988500
+  Vol. mean radius, km  = 695700              Volume, 10^12 km^3    = 1412000
+  Solar radius (IAU)    = 696000 km           Mean density, g/cm^3  = 1.408
+  Radius (photosphere)  = 696500 km           Angular diam at 1 AU  = 1919.3"
+  Photosphere temp., K  = 6600 (bottom)       Photosphere temp., K  = 4400(top)
+  Photospheric depth    = ~500 km             Chromospheric depth   = ~2500 km
+  Flatness, f           = 0.00005             Adopted sid. rot. per.= 25.38 d
+  Surface gravity       =  274.0 m/s^2        Escape speed, km/s    =  617.7
+  Pole (RA,DEC), deg.   = (286.13, 63.87)     Obliquity to ecliptic = 7.25 deg.
+  Solar constant (1 AU) = 1367.6 W/m^2        Luminosity, 10^24 J/s = 382.8
+  Mass-energy conv rate = 4.260 x 10^9 kg/s   Effective temp, K     = 5772
+  Sunspot cycle         = 11.4 yr             Cycle 24 sunspot min. = 2008 A.D.
+
+  Motion relative to nearby stars = apex : R.A.= 271 deg.; DEC.= +30 deg.
+                                    speed: 19.4 km/s (0.0112 au/day)
+  Motion relative to 2.73K BB/CBR = apex : l= 264.7 +- 0.8; b= 48.2 +- 0.5 deg.
+                                    speed: 369 +-11 km/s
+*******************************************************************************
+ 
+ 
+*******************************************************************************
+Ephemeris / WWW_USER Tue Aug 13 14:19:20 2019 Pasadena, USA      / Horizons    
+*******************************************************************************
+Target body name: Sun (10)                        {source: DE431mx}
+Center body name: Earth (399)                     {source: DE431mx}
+Center-site name: GEOCENTRIC
+*******************************************************************************
+Start time      : A.D. 2012-Jul-15 00:00:00.0000 UT      
+Stop  time      : A.D. 2012-Jul-16 00:00:00.0000 UT      
+Step-size       : 60 minutes
+*******************************************************************************
+Target pole/equ : IAU_SUN                         {East-longitude positive}
+Target radii    : 696000.0 x 696000.0 x 696000.0 k{Equator, meridian, pole}    
+Center geodetic : 0.00000000,0.00000000,0.0000000 {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.00000000,0.00000000,0.0000000 {E-lon(deg),Dxy(km),Dz(km)}
+Center pole/equ : High-precision EOP model        {East-longitude positive}
+Center radii    : 6378.1 x 6378.1 x 6356.8 km     {Equator, meridian, pole}    
+Target primary  : Sun
+Vis. interferer : MOON (R_eq= 1737.400) km        {source: DE431mx}
+Rel. light bend : Sun, EARTH                      {source: DE431mx}
+Rel. lght bnd GM: 1.3271E+11, 3.9860E+05 km^3/s^2                              
+Atmos refraction: NO (AIRLESS)
+RA format       : HMS
+Time format     : CAL 
+EOP file        : eop.190812.p191103                                           
+EOP coverage    : DATA-BASED 1962-JAN-20 TO 2019-AUG-12. PREDICTS-> 2019-NOV-02
+Units conversion: 1 au= 149597870.700 km, c= 299792.458 km/s, 1 day= 86400.0 s 
+Table cut-offs 1: Elevation (-90.0deg=NO ),Airmass (>38.000=NO), Daylight (NO )
+Table cut-offs 2: Solar elongation (  0.0,180.0=NO ),Local Hour Angle( 0.0=NO )
+Table cut-offs 3: RA/DEC angular rate (     0.0=NO )                           
+******************************************************************************************************************************
+ Date__(UT)__HR:MN:SS     R.A._(ICRF/J2000.0)_DEC  APmag  S-brt            delta      deldot    S-O-T /r    S-T-O       TDB-UT
+******************************************************************************************************************************
+$$SOE
+ 2012-Jul-15 00:00:00     07 38 13.79 +21 31 10.3 -26.71 -10.59 1.01647604680064  -0.0766087   0.0000    0.0000    67.183733
+ 2012-Jul-15 01:00:00     07 38 23.90 +21 30 46.6 -26.71 -10.59 1.01647419841080  -0.0770110   0.0000    0.0000    67.183732
+ 2012-Jul-15 02:00:00     07 38 34.01 +21 30 22.9 -26.71 -10.59 1.01647234033328  -0.0774138   0.0000    0.0000    67.183731
+ 2012-Jul-15 03:00:00     07 38 44.13 +21 29 59.1 -26.71 -10.59 1.01647047255602  -0.0778171   0.0000    0.0000    67.183730
+ 2012-Jul-15 04:00:00     07 38 54.24 +21 29 35.3 -26.71 -10.59 1.01646859506703  -0.0782209   0.0000    0.0000    67.183729
+ 2012-Jul-15 05:00:00     07 39 04.35 +21 29 11.5 -26.71 -10.59 1.01646670785439  -0.0786252   0.0000    0.0000    67.183728
+ 2012-Jul-15 06:00:00     07 39 14.46 +21 28 47.6 -26.71 -10.59 1.01646481090625  -0.0790301   0.0000    0.0000    67.183726
+ 2012-Jul-15 07:00:00     07 39 24.57 +21 28 23.7 -26.71 -10.59 1.01646290421084  -0.0794353   0.0000    0.0000    67.183725
+ 2012-Jul-15 08:00:00     07 39 34.67 +21 27 59.8 -26.71 -10.59 1.01646098775646  -0.0798411   0.0000    0.0000    67.183724
+ 2012-Jul-15 09:00:00     07 39 44.78 +21 27 35.8 -26.71 -10.59 1.01645906153147  -0.0802474   0.0000    0.0000    67.183723
+ 2012-Jul-15 10:00:00     07 39 54.89 +21 27 11.8 -26.71 -10.59 1.01645712552433  -0.0806541   0.0000    0.0000    67.183722
+ 2012-Jul-15 11:00:00     07 40 04.99 +21 26 47.7 -26.71 -10.59 1.01645517972354  -0.0810613   0.0000    0.0000    67.183721
+ 2012-Jul-15 12:00:00     07 40 15.10 +21 26 23.6 -26.71 -10.59 1.01645322411771  -0.0814690   0.0000    0.0000    67.183720
+ 2012-Jul-15 13:00:00     07 40 25.20 +21 25 59.5 -26.71 -10.59 1.01645125869551  -0.0818772   0.0000    0.0000    67.183719
+ 2012-Jul-15 14:00:00     07 40 35.30 +21 25 35.3 -26.71 -10.59 1.01644928344569  -0.0822858   0.0000    0.0000    67.183717
+ 2012-Jul-15 15:00:00     07 40 45.41 +21 25 11.1 -26.71 -10.59 1.01644729835707  -0.0826949   0.0000    0.0000    67.183716
+ 2012-Jul-15 16:00:00     07 40 55.51 +21 24 46.8 -26.71 -10.59 1.01644530341855  -0.0831044   0.0000    0.0000    67.183715
+ 2012-Jul-15 17:00:00     07 41 05.61 +21 24 22.5 -26.71 -10.59 1.01644329861913  -0.0835144   0.0000    0.0000    67.183714
+ 2012-Jul-15 18:00:00     07 41 15.71 +21 23 58.2 -26.71 -10.59 1.01644128394787  -0.0839249   0.0000    0.0000    67.183713
+ 2012-Jul-15 19:00:00     07 41 25.81 +21 23 33.8 -26.71 -10.59 1.01643925939390  -0.0843358   0.0000    0.0000    67.183712
+ 2012-Jul-15 20:00:00     07 41 35.90 +21 23 09.4 -26.71 -10.59 1.01643722494647  -0.0847471   0.0000    0.0000    67.183711
+ 2012-Jul-15 21:00:00     07 41 46.00 +21 22 45.0 -26.71 -10.59 1.01643518059487  -0.0851589   0.0000    0.0000    67.183710
+ 2012-Jul-15 22:00:00     07 41 56.10 +21 22 20.5 -26.71 -10.59 1.01643312632851  -0.0855711   0.0000    0.0000    67.183708
+ 2012-Jul-15 23:00:00     07 42 06.19 +21 21 56.0 -26.71 -10.59 1.01643106213685  -0.0859838   0.0000    0.0000    67.183707
+ 2012-Jul-16 00:00:00     07 42 16.29 +21 21 31.4 -26.71 -10.59 1.01642898800947  -0.0863969   0.0000    0.0000    67.183706
+$$EOE
+******************************************************************************************************************************
+Column meaning:
+ 
+TIME
+
+  Times PRIOR to 1962 are UT1, a mean-solar time closely related to the
+prior but now-deprecated GMT. Times AFTER 1962 are in UTC, the current
+civil or "wall-clock" time-scale. UTC is kept within 0.9 seconds of UT1
+by introduction of integer leap-seconds for 1972 and later.
+
+  Conversion from the internal Barycentric Dynamical Time (TDB) to the
+non-uniform civil UT time-scale requested for output has not been determined
+for UTC times after the next July or January 1st. Therefore, the last known
+leap-second is used as a constant over future intervals.
+
+  Time tags refer to the UT time-scale conversion on Earth regardless of
+where the observer is located in the solar system. For example, if an
+observation from the surface of another body has an output time-tag of
+12:31:00 UT, it refers to a time-scale conversion from TDB to UT valid
+at the center of the Earth at that instant, not the observer's location
+elsewhere in the solar system, where clock rates may differ slightly due
+to the local gravity field and there is no precisely defined or adopted
+"UT" analog.
+
+  Any 'b' symbol in the 1st-column denotes a B.C. date. First-column blank
+(" ") denotes an A.D. date. Calendar dates prior to 1582-Oct-15 are in the
+Julian calendar system. Later calendar dates are in the Gregorian system.
+
+  NOTE: "n.a." in output means quantity "not available" at the print-time.
+ 
+ R.A._(ICRF/J2000.0)_DEC =
+   Astrometric right ascension and declination of the TARGET CENTER with
+respect to the observing site in the coordinates of the ICRF/J2000 inertial
+reference frame. Compensated for down-leg light-time.
+   Units: RA in hours-minutes-seconds of time   (HH MM SS.ff),
+         DEC in angular degrees-minutes-seconds (DD MM SS.f)
+ 
+ APmag S-brt =
+   Sun's approximate apparent visual magnitude & surface brightness.
+APmag= M - 5 + 5*log10(d), where M= 4.83 and d= distance from Sun in parsecs.
+   Units: MAGNITUDE & VISUAL MAGNITUDES PER SQUARE ARCSECOND
+ 
+ delta  deldot =
+   Range ("delta") and range-rate ("delta-dot") of target center with respect
+to the observer at the instant light seen by the observer at print-time would
+have left the target center (print-time minus down-leg light-time); the
+distance traveled by a light ray emanating from the center of the target and
+recorded by the observer at print-time. "deldot" is a projection of the
+velocity vector along this ray, the light-time-corrected line-of-sight from the
+coordinate center, and indicates relative motion. A positive "deldot" means the
+target center is moving away from the observer (coordinate center). A negative
+"deldot" means the target center is moving toward the observer.
+Units: AU and KM/S
+ 
+ S-O-T /r =
+    Sun-Observer-Target angle; target's apparent SOLAR ELONGATION seen from
+the observer location at print-time. Angular units: DEGREES
+
+    The '/r' column indicates the target's apparent position relative to
+the Sun in the observer's sky, as described below:
+
+    For an observing location on the surface of a rotating body
+(considering its rotational sense):
+
+    /T indicates target TRAILS Sun (evening sky; rises and sets AFTER Sun)
+    /L indicates target LEADS Sun  (morning sky; rises and sets BEFORE Sun)
+
+For an observing point NOT on a rotating body (such as a spacecraft), the
+"leading" and "trailing" condition is defined by the observer's
+heliocentric orbital motion: if continuing in the observer's current
+direction of heliocentric motion would encounter the target's apparent
+longitude first, followed by the Sun's, the target LEADS the Sun as seen by
+the observer. If the Sun's apparent longitude would be encountered first,
+followed by the target's, the target TRAILS the Sun.
+
+NOTE: The S-O-T solar elongation angle is numerically the minimum
+separation angle of the Sun and target in the sky in any direction. It
+does NOT indicate the amount of separation in the leading or trailing
+directions, which are defined in the equator of a spherical coordinate
+system.
+ 
+ S-T-O =
+   "S-T-O" is the Sun->Target->Observer angle; the interior vertex angle at
+target center formed by a vector to the apparent center of the Sun at
+reflection time on the target and the apparent vector to the observer at
+print-time. Slightly different from true PHASE ANGLE (requestable separately)
+at the few arcsecond level in that it includes stellar aberration on the
+down-leg from target to observer.  Units: DEGREES
+ 
+ TDB-UT =
+   Difference between the uniform Barycentric Dynamical time-scale and the
+Earth-rotation dependent Universal Time. Prior to 1962, the difference is with
+respect to UT1 (TDB-UT1) and the 0.002 second maximum amplitude distinction
+between TT and TDB is not maintained. For 1962 and later, the difference is
+with respect to UTC (TDB-UTC) and periodic terms less than 1.e-6 second are
+ignored. Values beyond the next July or January 1st may change if a leap-second
+is later required by the IERS. Values from the present date forward through
+the next ~78 days are predictions; beyond that prediction interval, the last
+prediction is taken as a constant for all future dates. Units: SECONDS
+
+
+ Computations by ...
+     Solar System Dynamics Group, Horizons On-Line Ephemeris System
+     4800 Oak Grove Drive, Jet Propulsion Laboratory
+     Pasadena, CA  91109   USA
+     Information: http://ssd.jpl.nasa.gov/
+     Connect    : telnet://ssd.jpl.nasa.gov:6775  (via browser)
+                  telnet ssd.jpl.nasa.gov 6775    (via command-line)
+     Author     : Jon.D.Giorgini@jpl.nasa.gov
+
+******************************************************************************************************************************
